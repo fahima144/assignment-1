@@ -1,0 +1,46 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", serif;
+}
+/* universal selector started */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* universal selector ended */
+
+/* shared style started */
+.btn{
+    width: 244px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    background-color: rgb(255, 255, 255);
+    line-height: 23px;
+}
+
+/* header section */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 33px;
+    color: rgb(13, 19, 33);
+}
+nav .btn{
+    color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+}
