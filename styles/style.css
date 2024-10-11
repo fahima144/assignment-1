@@ -44,3 +44,71 @@ nav .btn{
     color: rgb(13, 19, 33);
     border: 1px solid rgb(13, 19, 33);
 }
+.banner-section-container{
+    width: 100%;
+    height: 652px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/Hero-bg.png");
+}
+.banner-image{
+    width: 173.03px;
+    height: 228.9px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.banner-text{
+    width: 998px;
+    height: 309px;
+    margin: 32px 0px;
+    padding: 32px 221px 44px 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+}
+.banner-text h1{
+    width: 998px;
+    height: 136px;
+    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    gap: 24px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-text p{
+    width: 852px;
+    height: 52px;
+    margin-bottom: 30px;
+    padding-bottom: 32px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 70%;
+    text-align: center;
+}
+.banner-text button {
+    border: none;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+.banner-text button a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
