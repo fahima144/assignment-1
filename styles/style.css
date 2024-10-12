@@ -262,3 +262,95 @@ nav .btn{
 .my-inspiration-video iframe{
     border-radius: 16px;
 }
+/* my inspiration section ended */
+
+
+.my-current-target-section{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-current-target-section h3{
+    width: 852px;
+    height: 37px;
+    margin-bottom: 15px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.my-current-target-section p{
+    width: 852px;
+    height: 52px;
+    margin: 24px 0;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.my-current-target-container{
+    width: 1140px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.my-current-target-box{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.second-skill{
+    background: rgba(0, 76, 232, 0.05);
+}
+.third-skill{
+    background: rgba(255, 223, 0, 0.05)
+}
+.my-current-target-box img{
+    margin-bottom: 5px;
+}
+.my-current-target-box h3{
+    width: 284px;
+    height: 36px;
+    margin-bottom: 5px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-current-target-box p{
+    width: 284px;
+    height: 52px;
+    margin-bottom: 45px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.my-current-target-box a{
+    width: 284px;
+    height: 19px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}  
